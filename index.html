@@ -1,0 +1,725 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/png/fav-icon-img.png">
+    <title>Clever travel</title>
+    <meta name="title" content="Escape to Paradise with Clever Travel" />
+    <meta name="description"
+        content="Discover the peace and beauty of breathtaking destinations, meticulously selected by our travel professionals to offer you a relaxing and luxurious escape." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vercel.com/amits-projects-fb1a793d/maincampaign" />
+    <meta property="og:title" content="Escape to Paradise with Clever Travel" />
+    <meta property="og:description"
+        content="Discover the peace and beauty of breathtaking destinations, meticulously selected by our travel professionals to offer you a relaxing and luxurious escape." />
+    <meta property="og:image" content="/meta-tag-img.png" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://vercel.com/amits-projects-fb1a793d/maincampaign " />
+    <meta property="twitter:title" content="Escape to Paradise with Clever Travel" />
+    <meta property="twitter:description"
+        content="Discover the peace and beauty of breathtaking destinations, meticulously selected by our travel professionals to offer you a relaxing and luxurious escape." />
+    <meta property="twitter:image" content="/meta-tag-img.png" />
+
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                    screens: {
+                        sm: "640px",
+                        md: "768px",
+                        lg: "1024px",
+                        xl: "1440px",
+                        "2xl": "1920px",
+                    },
+                },
+                extend: {
+                    fontSize: {
+                        '4xl-2': '30px',
+                        '6xl': "60px",
+                        '7xl': "84px",
+                    },
+                    fontFamily: {
+                        "inter": ["Inter", "sans-serif"],
+                    },
+                    colors: {
+                        "primary": "#ED8C0C",
+                        "blue": "#41546B",
+                        "light-black": "#212121",
+                        "light-yellow": "#FEF9F3",
+                        "light-gray": "#41546B80",
+                    },
+                    boxShadow: {
+                        "default": '0px 0px 20px 10px #ABCDFE',
+                        "secondary": "white 0px 0px 20px 5px ",
+                    },
+                    backgroundImage: {
+                        'hero-bg': "url('assets/img/svg/hero-bg.svg')",
+                    },
+                    background: {
+                        "linear": "linear-gradient(90.79deg, #994FFF 0.27%, #4AB6FE 98.57%)",
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <main class="overflow-hidden">
+        <!-- ================================= Hero section ============================================= -->
+        <section>
+            <div class="container px-3 mx-auto max-w-[1760px] w-full bg-white">
+                <nav class="flex justify-between items-center xl:py-5 lg:py-4 py-3">
+                    <img class="2xl:max-w-[273px] xl:max-w-[200px] max-w-[170px]" src="./assets/img/svg/nav-logo.svg"
+                        alt="page-logo">
+                    <div
+                        class="flex menulist justify-center items-center duration-300 ease-linear text-white w-full -right-full min-h-screen fixed top-0 bg-blue z-[100] lg:relative lg:min-h-fit lg:w-fit lg:flex-row lg:right-0 lg:bg-transparent">
+                        <div
+                            class="font-medium xl:text-2xl lg:text-xl md:text-lg text-base lg:gap-[50px] gap-5 flex max-lg:flex-col max-lg:text-center lg:text-blue">
+                            <a href="#about">About Us</a>
+                            <a href="#services">Services</a>
+                            <a href="#contact">Contact</a>
+                            <a href="#quote">Get a Quote</a>
+                        </div>
+                    </div>
+                    <div class="max-lg:hidden">
+                        <button
+                            class="flex bg-blue gap-3 font-medium xl:text-2xl lg:text-xl md:text-lg text-base text-white px-5 py-3"><img
+                                class="max-w-[25px]" src="./assets/img/png/Calling.png" alt="Calling-logo"> <a
+                                href="tel-347-385-6647">347-385-6647</a></button>
+                    </div>
+                    <div class="flex flex-col lg:hidden menubar me-5 justify-between z-[200] scroll-m-0 w-8 h-6 ">
+                        <span
+                            class="w-full h-1 flex rounded-md transition-all duration-500 bg-black menubarFirst origin-left"></span>
+                        <span
+                            class="w-full h-1 flex rounded-md transition-all duration-500 bg-black menubarSecond origin-left"></span>
+                        <span
+                            class="w-full h-1 flex rounded-md transition-all duration-500 bg-black menubarThird origin-left"></span>
+                    </div>
+                </nav>
+            </div>
+            <div class="bg-hero-bg pt-[256px] pb-[119px] bg-no-repeat bg-cover">
+                <div class="max-w-[950px] bg-light-black py-20 ps-20 pe-[98px]">
+                    <img class="2xl:max-w-[273px] xl:max-w-[200px] max-w-[170px] xl:pb-10 lg:pb-7 pb-4"
+                        src="./assets/img/svg/nav-logo.svg" alt="page-logo">
+                    <h1
+                        class="max-w-[772px] xl:pb-5 lg:pb-4 pb-3 2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl text-3xl text-white font-medium leading-full">
+                        Escape to Paradise with <span
+                            class="text-primary leading-full 2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl text-3xl font-medium underline">Clever
+                            Travel</span></h1>
+                    <p
+                        class="text-white font-poppins leading-primary font-normal xl:text-lg lg:text-base text-sm leading-primary max-w-[550px] xl:pb-[42px] lg:pb-7 pb-4">
+                        Discover the peace and beauty of breathtaking destinations,
+                        meticulously selected by our travel professionals to offer you
+                        a relaxing and luxurious escape.</p>
+                    <button
+                        class="px-12 py-[21px] bg-primary hover:bg-blue duration-300 ease-linear text-white font-semibold xl:text-2xl leading-normal lg:text-xl md:text-lg text-sm">Book
+                        Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================= Solutions section ============================================= -->
+        <section class="2xl:py-[120px] xl:py-24 lg:py-20 md:py-16 py-12">
+            <div class="container flex flex-col justify-center items-center px-3">
+                <img class="2xl:max-w-[273px] xl:max-w-[200px] max-w-[170px] xl:pb-5 lg:pb-4 pb-3"
+                    src="./assets/img/svg/nav-logo.svg" alt="page-logo">
+                <h1
+                    class="font-medium xl:max-w-[710px] leading-full text-blue lg:max-w-lg md:max-w-md max-w-sm text-center xl:text-6xl lg:text-5xl md:text-4xl text-3xl xl:pb-5 lg:pb-4 pb-3">
+                    <span class="text-primary underline underline-offset-8"> Clever Travel Solutions: </span>Your
+                    Trusted Travel Partner
+                </h1>
+                <p
+                    class="text-center max-w-[954px] 2xl:pb-[90px] xl:pb-16 lg:pb-12 font-poppins pb-10 text-blue xl:text-lg lg:text-base text-sm leading-primary">
+                    Clever Travel Solutions specializes in booking the best and most affordable flight options,
+                    particularly
+                    for international business and first-class travel. Our exceptional customer service ensures a
+                    seamless
+                    and enjoyable travel experience from start to finish.</p>
+                <img class="xl:max-w-[588px] lg:max-w-md md:max-w-sm max-w-[300px] xl:mb-5 mb-4 w-full 2xl:hidden"
+                    src="./assets/img/png/man-with-camera-img.png" alt="man-img">
+                <div class="flex xl:gap-[81px] lg:gap-14 md:gap-12 gap-7">
+                    <div class="flex flex-col gap-10">
+                        <div class="max-w-[345px]">
+                            <img class="xl:pb-5 lg:pb-4 pb-3" src="./assets/img/svg/beach-img.svg" alt="beach-img">
+                            <h4
+                                class="xl:text-3xl lg:text-2xl md:text-xl text-sm text-blue font-josef xl:pb-5 lg:pb-4 pb-3 font-semibold leading-none">
+                                Convenience</h4>
+                            <p
+                                class="text-blue font-poppins xl:text-lg lg:text-base md:text-sm text-xs leading-primary">
+                                Simplify your
+                                travel planning with a one-stop solution that handles all the details, from
+                                booking flights to arranging accommodations.</p>
+                        </div>
+                        <div class="max-w-[345px]">
+                            <img class="xl:pb-5 lg:pb-4 pb-3" src="./assets/img/svg/luxury-bed-img.svg" alt="bed-img">
+                            <h4
+                                class="xl:text-3xl lg:text-2xl md:text-xl text-sm text-blue font-josef xl:pb-5 lg:pb-4 pb-3 font-semibold leading-none">
+                                Luxury</h4>
+                            <p
+                                class="text-blue font-poppins xl:text-lg lg:text-base md:text-sm text-xs leading-primary">
+                                Indulge in
+                                personalized, high-end travel experiences tailored to your preferences.</p>
+                        </div>
+                    </div>
+                    <img class="max-w-[588px] w-full max-2xl:hidden" src="./assets/img/png/man-with-camera-img.png"
+                        alt="man-img">
+                    <div class="flex flex-col gap-10">
+                        <div class="max-w-[345px]">
+                            <img class="xl:pb-5 lg:pb-4 pb-3" src="./assets/img/svg/expertise-star-img.svg"
+                                alt="star-img">
+                            <h4
+                                class="xl:text-3xl lg:text-2xl md:text-xl text-sm text-blue font-josef xl:pb-5 lg:pb-4 pb-3 font-semibold leading-none">
+                                Expertise</h4>
+                            <p
+                                class="text-blue font-poppins xl:text-lg lg:text-base md:text-sm text-xs leading-primary">
+                                Benefit from
+                                the
+                                knowledge and insider insights of travel professionals who know the best destinations,
+                                deals, and itineraries.</p>
+                        </div>
+                        <div class="max-w-[345px]">
+                            <img class="xl:pb-5 lg:pb-4 pb-3" src="./assets/img/svg/savings-time-img.svg"
+                                alt="savings-time-img">
+                            <h4
+                                class="xl:text-3xl lg:text-2xl md:text-xl text-sm text-blue font-josef xl:pb-5 lg:pb-4 pb-3 font-semibold leading-none">
+                                Savings</h4>
+                            <p
+                                class="text-blue font-poppins xl:text-lg lg:text-base md:text-sm text-xs leading-primary">
+                                Maximize your
+                                travel budget with access to exclusive discounts and special deals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================= Services section ============================================= -->
+        <section class="2xl:mb-[120px] xl:mb-24 lg:mb-20 md:mb-16 mb-12" id="services">
+            <div class="container flex-col justify-center items-center px-3">
+                <h1
+                    class="font-medium text-blue leading-full text-center xl:text-6xl lg:text-5xl md:text-4xl text-3xl xl:mb-5 lg:mb-4 mb-3">
+                    <span class="text-primary">Services </span>We Offer
+                </h1>
+                <p
+                    class="text-center font-poppins lg:leading-primary xl:max-w-[954px] lg:max-w-2xl md:max-w-lg max-w-xs mx-auto 2xl:mb-[94px] xl:mb-16 lg:mb-12 mb-10 text-blue xl:text-lg lg:text-base text-sm">
+                    We offer a comprehensive range of travel solutions designed to make your journey effortless and
+                    enjoyable. From personalized trip planning and exclusive deals to expert advice and 24/7 support, we
+                    handle every detail to ensure a seamless and memorable travel experience. Whether you need
+                    assistance
+                    with bookings, insurance, or custom experiences, our team is here to provide exceptional service
+                    tailored to your needs.</p>
+                <div class="max-w-[1464px] relative mx-auto flex 2xl:mb-[90px] xl:mb-20 lg:mb-16 md:mb-12 mb-7">
+                    <div class="flex max-xl:flex-col items-center justify-center mx-auto">
+                        <img class="2xl:max-w-[832px] xl:max-w-[700px] max-w-2xl w-full"
+                            src="./assets/img/png/secvices-card-1-img.png" alt="Reception">
+                        <div
+                            class="2xl:px-[60px] 2xl:py-[60px] xl:py-10 xl:px-10 lg:py-7 lg:px-7 md:py-5 md:px-5 py-3 px-3 bg-blue 2xl:max-w-[734px] lg:max-w-xl md:max-w-lg max-w-sm max-sm:max-w-[300px] max-h-max 2xl:-ml-[102px] 2xl:mt-0 xl:mt-0 xl:-ml-20 lg:-mt-16 md:-mt-14 -mt-12 w-full">
+                            <h4
+                                class="text-primary font-josef xl:text-3xl lg:text-2xl md:text-xl text-sm xl:pb-5 lg:pb-4 pb-3">
+                                Personalized Travel Concierge</h4>
+                            <p
+                                class="font-poppins leading-primary text-white xl:text-lg lg:text-base md:text-sm text-xs xl:pb-10 lg:pb-7 md:pb-5 pb-4 w-full">
+                                Enjoy tailored
+                                travel planning and expert support throughout your journey. Our concierge
+                                services ensure every detail is handled to your specifications, providing a seamless and
+                                personalized experience from start to finish.</p>
+                            <button
+                                class="xl:px-12 xl:py-6 lg:px-7 lg:py-5 md:px-5 md:py-3 px-4 py-2 hover:bg-primary border border-white hover:border-transparent duration-300 ease-linear text-white font-semibold xl:text-2xl lg:text-xl md:text-lg text-sm">Book
+                                Now</button>
+                        </div>
+                    </div>
+                    <img class="max-w-[255px] w-full absolute 2xl:-left-24 xl:left-40 top-[65px] max-xl:hidden -z-40 "
+                        src="./assets/img/png/services-card-left-img.png" alt="component-img">
+                </div>
+                <div class="max-w-[1464px] relative mx-auto flex 2xl:mb-[90px] xl:mb-20 lg:mb-16 md:mb-12 mb-7">
+                    <div class="flex max-xl:flex-col-reverse items-center justify-center mx-auto">
+                        <div
+                            class="2xl:px-[60px] 2xl:py-[60px] xl:py-10 xl:px-10 lg:py-7 lg:px-7 md:py-5 md:px-5 py-3 px-3 bg-blue 2xl:max-w-[734px] lg:max-w-xl md:max-w-lg max-w-sm max-sm:max-w-[300px] max-h-max 2xl:-mr-[102px] 2xl:mt-0 xl:-mr-20 xl:mt-0 lg:-mt-16 md:-mt-14 -mt-12 w-full z-40">
+                            <h4
+                                class="text-primary font-josef xl:text-3xl lg:text-2xl md:text-xl text-sm xl:pb-5 lg:pb-4 pb-3">
+                                Luxury Travel Experiences</h4>
+                            <p
+                                class="font-poppins leading-primary text-white xl:text-lg lg:text-base md:text-sm text-xs xl:pb-10 lg:pb-7 md:pb-5 pb-4">
+                                Experience the height of luxury with bespoke travel arrangements and premium
+                                accommodations.
+                                From exclusive offers to customized itineraries, we deliver unparalleled comfort and
+                                sophistication for your ultimate enjoyment.</p>
+                            <button
+                                class="xl:px-12 xl:py-6 lg:px-7 lg:py-5 md:px-5 md:py-3 px-4 py-2 hover:bg-primary border border-white hover:border-transparent duration-300 ease-linear text-white font-semibold xl:text-2xl lg:text-xl md:text-lg text-sm">Book
+                                Now</button>
+                        </div>
+                        <img class="2xl:max-w-[832px] xl:max-w-[700px] max-w-2xl w-full"
+                            src="./assets/img/png/secvices-card-2-img.png" alt="man-img">
+                    </div>
+                    <img class="max-w-[325px] w-full absolute 2xl:-right-28 xl:right-40 top-16 max-xl:hidden -z-40 "
+                        src="./assets/img/png/services-card-right-img.png" alt="component-img">
+                </div>
+                <div class="max-w-[1464px] relative mx-auto flex 2xl:mb-[90px] xl:mb-20 lg:mb-16 md:mb-12 mb-7">
+                    <div class="flex max-xl:flex-col items-center justify-center mx-auto">
+                        <img class="2xl:max-w-[832px] xl:max-w-[700px] max-w-2xl w-full"
+                            src="./assets/img/png/secvices-card-3-img.png" alt="group-of-man-img">
+                        <div
+                            class="2xl:px-[60px] 2xl:py-[60px] xl:py-10 xl:px-10 lg:py-7 lg:px-7 md:py-5 md:px-5 py-3 px-3 bg-blue 2xl:max-w-[734px] lg:max-w-xl md:max-w-lg max-w-sm max-sm:max-w-[300px] max-h-max 2xl:-ml-[102px] 2xl:mt-0 xl:mt-0 xl:-ml-20 lg:-mt-16 md:-mt-14 -mt-12 w-full">
+                            <h4
+                                class="text-primary font-josef xl:text-3xl lg:text-2xl md:text-xl text-sm xl:pb-5 lg:pb-4 pb-3">
+                                Seamless Group Travel</h4>
+                            <p
+                                class="font-poppins leading-primary text-white xl:text-lg lg:text-base md:text-sm text-xs xl:pb-10 lg:pb-7 md:pb-5 pb-4">
+                                Effortlessly coordinate group trips with our comprehensive management services. Perfect
+                                for
+                                corporate events, family vacations, and special occasions, we ensure smooth arrangements
+                                and
+                                memorable experiences for all participants.</p>
+                            <button
+                                class="xl:px-12 xl:py-6 lg:px-7 lg:py-5 md:px-5 md:py-3 px-4 py-2 hover:bg-primary border border-white hover:border-transparent duration-300 ease-linear text-white font-semibold xl:text-2xl lg:text-xl md:text-lg text-sm">Book
+                                Now</button>
+                        </div>
+                    </div>
+                    <img class="max-w-[255px] w-full absolute 2xl:-left-24 xl:left-40 top-[65px] max-xl:hidden -z-40 "
+                        src="./assets/img/png/services-card-left-img.png" alt="component-img">
+                </div>
+                <div class="max-w-[1464px] relative mx-auto flex 2xl:mb-[90px] xl:mb-20 lg:mb-16 md:mb-12 mb-7">
+                    <div class="flex max-xl:flex-col-reverse items-center justify-center mx-auto">
+                        <div
+                            class="2xl:px-[60px] 2xl:py-[60px] xl:py-10 xl:px-10 lg:py-7 lg:px-7 md:py-5 md:px-5 py-3 px-3 bg-blue 2xl:max-w-[734px] lg:max-w-xl md:max-w-lg max-w-sm max-sm:max-w-[300px] max-h-max 2xl:-mr-[102px] 2xl:mt-0 xl:-mr-20 xl:mt-0 lg:-mt-16 md:-mt-14 -mt-12 w-full z-40">
+                            <h4
+                                class="text-primary font-josef xl:text-3xl lg:text-2xl md:text-xl text-sm xl:pb-5 lg:pb-4 pb-3">
+                                VIP Airport Services</h4>
+                            <p
+                                class="font-poppins leading-primary text-white xl:text-lg lg:text-base md:text-sm text-xs xl:pb-10 lg:pb-7 md:pb-5 pb-4">
+                                Travel with ease using our VIP airport services, including priority check-in, exclusive
+                                lounge access, and personalized assistance. We handle the details to provide you with a
+                                stress-free and comfortable airport experience.</p>
+                            <button
+                                class="xl:px-12 xl:py-6 lg:px-7 lg:py-5 md:px-5 md:py-3 px-4 py-2 hover:bg-primary border border-white hover:border-transparent duration-300 ease-linear text-white font-semibold xl:text-2xl lg:text-xl md:text-lg text-sm">Book
+                                Now</button>
+                        </div>
+                        <img class="2xl:max-w-[832px] xl:max-w-[700px] max-w-2xl w-full"
+                            src="./assets/img/png/secvices-card-4-img.png" alt="car-img">
+                    </div>
+                    <img class="max-w-[325px] w-full absolute 2xl:-right-28 xl:right-40 top-16 max-xl:hidden -z-40 "
+                        src="./assets/img/png/services-card-right-img.png" alt="component-img">
+                </div>
+                <div class="max-w-[1464px] relative mx-auto flex 2xl:mb-[90px] xl:mb-20 lg:mb-16 md:mb-12 mb-7">
+                    <div class="flex max-xl:flex-col items-center justify-center mx-auto">
+                        <img class="2xl:max-w-[832px] xl:max-w-[700px] max-w-2xl w-full"
+                            src="./assets/img/png/secvices-card-5-img.png" alt="beach-view-img">
+                        <div
+                            class="2xl:px-[60px] 2xl:py-[60px] xl:py-10 xl:px-10 lg:py-7 lg:px-7 md:py-5 md:px-5 py-3 px-3 bg-blue 2xl:max-w-[734px] lg:max-w-xl md:max-w-lg max-w-sm max-sm:max-w-[300px] max-h-max 2xl:-ml-[102px] 2xl:mt-0 xl:mt-0 xl:-ml-20 lg:-mt-16 md:-mt-14 -mt-12 w-full">
+                            <h4
+                                class="text-primary font-josef xl:text-3xl lg:text-2xl md:text-xl text-sm xl:pb-5 lg:pb-4 pb-3">
+                                Curated Hotel Stays</h4>
+                            <p
+                                class="font-poppins leading-primary text-white xl:text-lg lg:text-base md:text-sm text-xs xl:pb-10 lg:pb-7 md:pb-5 pb-4">
+                                Discover a range of exceptional lodging options carefully selected to meet your needs.
+                                From
+                                charming boutique hotels to luxurious resorts, we ensure your accommodations enhance
+                                your
+                                travel experience.</p>
+                            <button
+                                class="xl:px-12 xl:py-6 lg:px-7 lg:py-5 md:px-5 md:py-3 px-4 py-2 hover:bg-primary border border-white hover:border-transparent duration-300 ease-linear text-white font-semibold xl:text-2xl lg:text-xl md:text-lg text-sm">Book
+                                Now</button>
+                        </div>
+                    </div>
+                    <img class="max-w-[255px] w-full absolute 2xl:-left-24 xl:left-40 top-[65px] max-xl:hidden -z-40 "
+                        src="./assets/img/png/services-card-left-img.png" alt="component-img">
+                </div>
+                <div class="max-w-[1464px] relative mx-auto flex">
+                    <div class="flex max-xl:flex-col-reverse items-center justify-center mx-auto">
+                        <div
+                            class="2xl:px-[60px] 2xl:py-[60px] xl:py-10 xl:px-10 lg:py-7 lg:px-7 md:py-5 md:px-5 py-3 px-3 bg-blue 2xl:max-w-[734px] lg:max-w-xl md:max-w-lg max-w-sm max-sm:max-w-[300px] max-h-max 2xl:-mr-[102px] 2xl:mt-0 xl:-mr-20 xl:mt-0 lg:-mt-16 md:-mt-14 -mt-12 w-full z-40">
+                            <h4
+                                class="text-primary font-josef xl:text-3xl lg:text-2xl md:text-xl text-sm xl:pb-5 lg:pb-4 pb-3">
+                                Efficient Transportation Solutions</h4>
+                            <p
+                                class="font-poppins leading-primary text-white xl:text-lg lg:text-base md:text-sm text-xs xl:pb-10 lg:pb-7 md:pb-5 pb-4">
+                                Simplify your travel with our reliable transportation options, including car rentals and
+                                airport transfers. We provide convenient and efficient solutions to keep you moving
+                                smoothly
+                                throughout your journey.</p>
+                            <button
+                                class="xl:px-12 xl:py-6 lg:px-7 lg:py-5 md:px-5 md:py-3 px-4 py-2 hover:bg-primary border border-white hover:border-transparent duration-300 ease-linear text-white font-semibold xl:text-2xl lg:text-xl md:text-lg text-sm">Book
+                                Now</button>
+                        </div>
+                        <img class="2xl:max-w-[832px] xl:max-w-[700px] max-w-2xl w-full"
+                            src="./assets/img/png/secvices-card-6-img.png" alt="car-img">
+                    </div>
+                    <img class="max-w-[325px] w-full absolute 2xl:-right-28 xl:right-40 top-16 max-xl:hidden -z-40 "
+                        src="./assets/img/png/services-card-right-img.png" alt="component-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================= Partners section ============================================= -->
+        <section id="about">
+            <div class="container flex-col justify-center items-center px-3">
+                <h1
+                    class="font-medium leading-full text-blue text-center xl:text-6xl lg:text-5xl md:text-4xl text-3xl xl:pb-5 lg:pb-4 pb-3">
+                    Our
+                    <span class="text-primary">Partners</span>
+                </h1>
+                <p
+                    class="text-center xl:max-w-[954px] font-poppins lg:max-w-2xl md:max-w-lg max-w-xs mx-auto 2xl:mb-[96px] xl:mb-16 lg:mb-12 mb-7 text-blue xl:text-lg lg:text-base text-sm">
+                    At Clever Travel Solutions, we proudly partner with leading airlines, luxury hotels, and exclusive
+                    resorts worldwide to provide you with unparalleled travel experiences.</p>
+            </div>
+            <div class="overflow-hidden w-full max-w-[1920px] bg-white mb-[50px]">
+                <div class="flex xl:space-x-[100px] lg:space-x-20 md:space-x-14 space-x-12 scroll-right-to-left">
+                    <!-- Logos with 100px space between them -->
+                    <img src="./assets/img/svg/partner-sec-logo-1.svg" alt="Logo-1"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-2.svg" alt="Logo-2"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-3.svg" alt="Logo-3"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-4.svg" alt="Logo-4"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-5.svg" alt="Logo-5"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-6.svg" alt="Logo-6"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-7.svg" alt="Logo-7"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <!-- Duplicate Logos to ensure smooth scrolling -->
+                    <img src="./assets/img/svg/partner-sec-logo-1.svg" alt="Logo-1"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-2.svg" alt="Logo-2"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-3.svg" alt="Logo-3"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-4.svg" alt="Logo-4"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-5.svg" alt="Logo-5"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-6.svg" alt="Logo-6"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-7.svg" alt="Logo-7"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                </div>
+            </div>
+            <div class="overflow-hidden w-full max-w-[1920px] bg-white mb-[50px]">
+                <div class="flex xl:space-x-[100px] lg:space-x-20 md:space-x-14 space-x-12 scroll-left-to-right">
+                    <!-- Logos with 100px space between them -->
+                    <img src="./assets/img/svg/partner-sec-logo-8.svg" alt="Logo-8"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-9.svg" alt="Logo-9"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-10.svg" alt="Logo-10"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-11.svg" alt="Logo-11"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-12.svg" alt="Logo-12"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-13.svg" alt="Logo-13"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-14.svg" alt="Logo-14"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <!-- Duplicate Logos to ensure smooth scrolling -->
+                    <img src="./assets/img/svg/partner-sec-logo-8.svg" alt="Logo-8"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-9.svg" alt="Logo-9"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-10.svg" alt="Logo-10"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-11.svg" alt="Logo-11"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-12.svg" alt="Logo-12"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-13.svg" alt="Logo-13"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-14.svg" alt="Logo-14"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                </div>
+            </div>
+            <div class="overflow-hidden w-full max-w-[1920px] bg-white">
+                <div class="flex xl:space-x-[100px] lg:space-x-20 md:space-x-14 space-x-12 scroll-right-to-left">
+                    <!-- Logos with 100px space between them -->
+                    <img src="./assets/img/svg/partner-sec-logo-15.svg" alt="Logo-15"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-16.svg" alt="Logo-16"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-17.svg" alt="Logo-17"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-18.svg" alt="Logo-18"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-19.svg" alt="Logo-19"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-20.svg" alt="Logo-20"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <!-- Duplicate Logos to ensure smooth scrolling -->
+                    <img src="./assets/img/svg/partner-sec-logo-15.svg" alt="Logo-15"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-16.svg" alt="Logo-16"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-17.svg" alt="Logo-17"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-18.svg" alt="Logo-18"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-19.svg" alt="Logo-19"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                    <img src="./assets/img/svg/partner-sec-logo-20.svg" alt="Logo-20"
+                        class="max-w-[200px] xl:w-[200px] lg:w-40 md:w-32 w-28">
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================= Airplane section ============================================= -->
+        <section class="2xl:py-[120px] xl:py-24 lg:py-20 md:py-16 py-12">
+            <div class="container max-w-[1760px] px-3 h-auto xl:min-h-[818px]">
+                <img class="max-w-[1760px] w-full 2xl:h-[818px]" src="./assets/img/png/airplane-img.png" alt="">
+            </div>
+        </section>
+
+        <!-- ================================= Happy travelers section ============================================= -->
+        <section class="2xl:pb-[120px] xl:pb-24 lg:pb-20 md:pb-16 pb-12" id="quote">
+            <div class="container max-w-[1760px] px-3 mx-auto">
+                <h1
+                    class="font-medium text-blue  xl:text-6xl max-xl:text-center lg:text-5xl md:text-4xl text-3xl xl:pb-5 lg:pb-4 pb-3">
+                    Happy
+                    <span class="text-primary">Travelers</span>
+                </h1>
+                <p
+                    class="xl:max-w-[940px] font-poppins max-xl:text-center max-xl:mx-auto lg:max-w-2xl md:max-w-lg max-w-xs 2xl:pb-[90px] xl:pb-16 lg:pb-12 pb-7 text-blue xl:text-lg lg:text-base text-sm">
+                    Experience the joy of traveling with Clever Travel Solutions through the words of our satisfied
+                    clients.
+                    Here’s what they have to say about their journeys with us:</p>
+                <div class="flex flex-wrap justify-center items-center">
+                    <div class="xl:w-4/12 lg:w-6/12  xl:py-0 py-[10px] px-[10px]">
+                        <div
+                            class="bg-light-yellow px-[30px] py-[30px] max-w-[573px] hover:shadow-2xl duration-300 ease-linear">
+                            <div class="flex justify-between mb-12">
+                                <img class="max-w-[30px] mb-[10px] w-full" src="./assets/img/png/colon-img.png" alt="colon-img">
+                                <img src="./assets/img/svg/stars-img.svg" alt="stars-img">
+                            </div>
+                            <div class="flex gap-[15px] mb-5">
+                                <img class="size-[60px]" src="./assets/img/png/travellers-card-1-img.png"
+                                    alt="ahmad-bator-img">
+                                <div>
+                                    <p class="font-medium font-josef xl:text-2xl lg:text-xl md:text-lg text-sm ">Ahmad
+                                        Bator
+                                    </p>
+                                    <p
+                                        class="font-poppins font-medium xl:text-xl lg:text-lg md:text-base text-sm text-primary">
+                                        Director of Zaara</p>
+                                </div>
+                            </div>
+                            <p class="text-blue font-poppins max-w-[400px] xl:text-lg md:text-base text-xs leading-primary">Lorem
+                                ipsum
+                                dolor
+                                sit amet
+                                consectetur. Nulla nullam cras porttitor vel in ornare est commodo. Rhoncus diam sed
+                                pellentesque interdum.</p>
+                        </div>
+                    </div>
+                    <div class="xl:w-4/12 lg:w-6/12  xl:py-0 py-[10px] px-[10px]">
+                        <div
+                            class="bg-light-yellow px-[30px] py-[30px] max-w-[573px] hover:shadow-2xl duration-300 ease-linear">
+                            <div class="flex justify-between mb-12">
+                                <img class="max-w-[30px] mb-[10px] w-full" src="./assets/img/png/colon-img.png" alt="colon-img">
+                                <img src="./assets/img/svg/stars-img.svg" alt="stars-img">
+                            </div>
+                            <div class="flex gap-[15px] mb-5">
+                                <img class="size-[60px]" src="./assets/img/png/travellers-card-2-img.png"
+                                    alt="ahmad-bator-img">
+                                <div>
+                                    <p class="font-medium font-josef xl:text-2xl lg:text-xl md:text-lg text-sm ">Craig
+                                        Botosh
+                                    </p>
+                                    <p
+                                        class="font-poppins font-medium xl:text-xl lg:text-lg md:text-base text-sm text-primary">
+                                        Director of Zaara</p>
+                                </div>
+                            </div>
+                            <p class="text-blue font-poppins max-w-[400px] xl:text-lg md:text-base text-xs leading-primary">Lorem
+                                ipsum
+                                dolor
+                                sit amet
+                                consectetur. Nulla nullam cras porttitor vel in ornare est commodo. Rhoncus diam sed
+                                pellentesque interdum.</p>
+                        </div>
+                    </div>
+                    <div class="xl:w-4/12 lg:w-6/12  xl:py-0 py-[10px] px-[10px]">
+                        <div
+                            class="bg-light-yellow px-[30px] py-[30px] max-w-[573px] hover:shadow-2xl duration-300 ease-linear">
+                            <div class="flex justify-between mb-12">
+                                <img class="max-w-[30px] mb-[10px] w-full" src="./assets/img/png/colon-img.png" alt="colon-img">
+                                <img src="./assets/img/svg/stars-img.svg" alt="stars-img">
+                            </div>
+                            <div class="flex gap-[15px] mb-5">
+                                <img class="size-[60px]" src="./assets/img/png/travellers-card-3-img.png"
+                                    alt="ahmad-bator-img">
+                                <div>
+                                    <p class="font-medium font-josef xl:text-2xl lg:text-xl md:text-lg text-sm ">Ashlynn
+                                        Carder
+                                    </p>
+                                    <p
+                                        class="font-poppins font-medium xl:text-xl lg:text-lg md:text-base text-sm text-primary">
+                                        Director of Zaara</p>
+                                </div>
+                            </div>
+                            <p class="text-blue font-poppins max-w-[400px] xl:text-lg md:text-base text-xs leading-primary">Lorem
+                                ipsum
+                                dolor
+                                sit amet
+                                consectetur. Nulla nullam cras porttitor vel in ornare est commodo. Rhoncus diam sed
+                                pellentesque interdum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================= Footer section ============================================= -->
+        <footer>
+            <div class="container max-w-[1760px] px-3" id="contact">
+                <div class="flex max-xl:flex-col w-full px-3 relative">
+                    <img class="max-w-[324px] w-full absolute 2xl:right-5 xl:right-40 top-[108px] max-xl:hidden -z-40 "
+                        src="./assets/img/png/services-card-right-img.png" alt="component-img">
+                    <div
+                        class="2xl:px-[60px] max-xl:mx-auto xl:px-12 lg:px-10 md:px-7 px-4 2xl:pt-[60px] xl:pt-12 lg:pt-9 md:pt-6 pt-3 2xl:mb-[60px] xl:mb-12 lg:mb-10 mb-7 2xl:pb-[97px] xl:pb-14 lg:pb-10 md:pb-7 pb-4 border max-w-[1038px] w-full">
+                        <div class="flex justify-between">
+                            <h1
+                                class="font-medium leading-full text-blue 2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl text-2xl 2xl:mb-[51px] xl:mb-10 lg:mb-7 mb-5">
+                                Get in
+                                <span class="text-primary underline underline-offset-[8px]">Touch</span>
+                            </h1>
+                            <a class="max-h-max 2xl:max-w-[273px] xl:max-w-52 lg:max-w-40 max-w-32" href="/"><img
+                                    src="./assets/img/svg/nav-logo.svg" alt="page-logo"></a>
+                        </div>
+                        <div class="flex max-md:flex-col gap-5 w-full xl:mb-[18px] mb-4">
+                            <div class="w-full">
+                                <p class="xl:mb-[15px] lg:mb-3 mb-2 text-blue font-poppins font-medium xl:text-base lg:text-sm text-xs">
+                                    First
+                                    Name</p>
+                                <input type="text" required placeholder="Enter First Name..."
+                                    class="placeholder:text-light-gray text-light-gray border broder-light-gray xl:px-[15px] lg:px-3 px-2 xl:pt-[10px] xl:pb-[9px] lg:py-2 py-[7px] max-w-[449px] w-full">
+                            </div>
+                            <div class="w-full">
+                                <p class="xl:mb-[15px] lg:mb-3 mb-2 text-blue font-poppins font-medium xl:text-base lg:text-sm text-xs">
+                                    Email
+                                </p>
+                                <input type="email" required placeholder="Enter Email..."
+                                    class="placeholder:text-light-gray text-light-gray border broder-light-gray xl:px-[15px] lg:px-3 px-2 xl:pt-[10px] xl:pb-[9px] lg:py-2 py-[7px] max-w-[449px] w-full">
+                            </div>
+                        </div>
+                        <div class="2xl:mb-[24px] xl:mb-5  mb-4">
+                            <p class="xl:mb-[14px] lg:mb-3 mb-2 text-blue font-poppins font-medium xl:text-base lg:text-sm text-xs">
+                                Message
+                            </p>
+                            <textarea name="" text="" placeholder="Lorem ipsum dolor sit amet consectetur... "
+                                class="placeholder:text-light-gray text-light-gray w-full h-[88px] border max-md:max-w-[449px] broder-light-gray xl:px-[15px] lg:px-3 px-2 xl:py-[14px] lg:py-3 py-[7px] resize-none"></textarea>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between items-center space-y-4 md:space-y-0">
+                            <div class="flex gap-3 items-center cursor-pointer" onclick="document.getElementById('fileInput').click();">
+                                <img class="xl:max-w-6 lg:max-w-5 md:max-w-4  w-full" src="./assets/img/png/attach-symbol.png" alt="attach-symbol">
+                                <p class="xl:text-2xl lg:text-lg md:text-base text-sm text-blue">Attach Files</p>
+                            </div>
+                        
+                            <input type="file" id="fileInput" class="hidden" multiple onchange="handleFiles(event)">
+                        
+                            <div id="selectedFiles" class="mt-4 md:mt-0 md:ml-4 space-y-2 text-left max-h-28 overflow-y-auto w-full max-w-[18rem]">
+                            </div>
+                        
+                            <div class="w-full sm:w-auto flex justify-end">
+                                <button
+                                    class="w-full sm:w-auto 2xl:px-12 2xl:py-5 xl:px-10 xl:py-4 lg:px-7 lg:py-3 md:px-6 md:py-3 px-4 py-2 bg-primary text-white text-base md:text-lg lg:text-xl xl:text-2xl hover:bg-blue duration-300 ease-linear">
+                                    Send
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-blue 2xl:px-[60px] xl:max-h-[615px] xl:px-12 lg:px-10 md:px-7 px-4 2xl:mb-[60px] xl:mb-12 lg:mb-10 mb-7 2xl:py-[60px] xl:py-12 lg:py-10 md:py-7 py-4 max-w-[574px] w-full max-xl:mx-auto">
+                        <h2
+                            class="font-medium text-primary underline underline-offset-[8px] leading-full text-blue xl:text-6xl lg:text-5xl md:text-4xl text-3xl 2xl:mb-[60px] xl:mb-10 lg:mb-7 mb-5">
+                            Contact
+                        </h2>
+                        <div class="xl:mb-5 lg:mb-5 mb-4">
+                            <p
+                                class="xl:text-3xl lg:text-2xl md:text-xl text-sm font-medium text-white xl:mb-5 md:mb-4 mb-3 underline underline-offset-[5px]">
+                                Location:</p>
+                            <a class="hover:text-primary duration-300 ease-linear font-poppins xl:text-lg lg:text-base text-white text-sm"
+                                href="#location " target="_blank">123
+                                Main Street, Anytown, CA 12345, USA</a>
+                        </div>
+                        <div class="xl:mb-5 lg:mb-5 mb-3">
+                            <p
+                                class="xl:text-3xl lg:text-2xl md:text-xl text-sm font-medium text-white xl:mb-5 md:mb-4 mb-3 underline underline-offset-[5px]">
+                                Email:</p>
+                            <a class="hover:text-primary duration-300 ease-linear font-poppins xl:text-lg lg:text-base text-white text-sm"
+                                href="#location" target="_blank">clever.travel@example.com</a>
+                        </div>
+                        <div class="xl:mb-7 lg:mb-5 mb-3">
+                            <p
+                                class="xl:text-3xl lg:text-2xl md:text-xl text-sm font-medium text-white xl:mb-5 md:mb-4 mb-3 underline underline-offset-[5px]">
+                                Phone:</p>
+                            <a class="hover:text-primary duration-300 ease-linear font-poppins xl:text-lg lg:text-base text-white text-sm"
+                                href="tel-+01 234 5676 23" target="_blank">+01 234 5676 23</a>
+                        </div>
+                        <div class="flex gap-4">
+                            <a class="rounded-full" href="https://x.com/?lang=en-id" target="_blank">
+                                <div
+                                    class="lg:px-2 px-1 lg:py-2 py-1 border rounded-full 2xl:size-10 xl:size-11 lg:size-10 size-7 hover:bg-primary duration-500 ease-linear hover:border-primary flex justify-center items-center">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M21.6004 6.04294C20.8943 6.35579 20.1358 6.56719 19.3384 6.66274C20.1519 6.1757 20.7759 5.40279 21.0702 4.48278C20.3092 4.93435 19.4661 5.26243 18.569 5.43831C17.8502 4.67392 16.827 4.19531 15.6939 4.19531C13.5191 4.19531 11.7552 5.95921 11.7552 8.13578C11.7553 8.43742 11.7893 8.7381 11.8566 9.03214C8.58168 8.86721 5.68043 7.29863 3.73727 4.91575C3.39907 5.49921 3.20455 6.1757 3.20455 6.89613C3.20455 8.26258 3.9005 9.46928 4.95661 10.1754C4.33111 10.1554 3.71941 9.98642 3.17242 9.68237V9.7331C3.17242 11.6416 4.5296 13.2339 6.3324 13.5958C5.99412 13.6871 5.64523 13.7331 5.29485 13.7328C5.04604 13.733 4.79776 13.7098 4.55329 13.6634C5.05472 15.2278 6.50915 16.3676 8.23331 16.3981C6.88456 17.4551 5.18579 18.085 3.34069 18.085C3.02275 18.085 2.70903 18.0664 2.40039 18.03C4.14402 19.1488 6.21403 19.7999 8.43792 19.7999C15.6846 19.7999 19.6462 13.7978 19.6462 8.59239C19.6462 8.42329 19.642 8.25245 19.6344 8.08335C20.4039 7.52693 21.0719 6.8344 21.5987 6.04546L21.6004 6.04294Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </a>
+                            <a class="rounded-full" href="https://www.linkedin.com/" target="_blank">
+                                <div
+                                    class="lg:px-2 px-1 lg:py-2 py-1 border rounded-full 2xl:size-10 xl:size-11 lg:size-10 size-7 hover:bg-primary duration-500 ease-linear hover:border-primary flex justify-center items-center">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M2.40039 4.95255C2.40039 4.33478 2.61661 3.82513 3.04904 3.4236C3.48147 3.02205 4.04364 2.82129 4.73553 2.82129C5.41507 2.82129 5.96486 3.01896 6.38495 3.41434C6.81737 3.82205 7.03359 4.35331 7.03359 5.00815C7.03359 5.60119 6.82356 6.09539 6.40348 6.49076C5.97105 6.89848 5.40271 7.10234 4.69846 7.10234H4.67993C4.00038 7.10234 3.45059 6.89848 3.03051 6.49076C2.61042 6.08304 2.40039 5.5703 2.40039 4.95255ZM2.64132 21.1687V8.78882H6.7556V21.1687H2.64132ZM9.03514 21.1687H13.1494V14.256C13.1494 13.8235 13.1988 13.4899 13.2977 13.2552C13.4707 12.8351 13.7332 12.4799 14.0853 12.1896C14.4375 11.8992 14.8791 11.754 15.4104 11.754C16.7942 11.754 17.4861 12.6869 17.4861 14.5525V21.1687H21.6004V14.0706C21.6004 12.2421 21.168 10.8552 20.3031 9.91005C19.4382 8.96488 18.2954 8.49229 16.8745 8.49229C15.2807 8.49229 14.039 9.178 13.1494 10.5494V10.5865H13.1309L13.1494 10.5494V8.78882H9.03514C9.05984 9.18418 9.0722 10.4135 9.0722 12.4768C9.0722 14.5401 9.05984 17.4374 9.03514 21.1687Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </a>
+                            <a class="rounded-full" href="https://www.instagram.com/" target="_blank">
+                                <div
+                                    class="lg:px-2 px-1 lg:py-2 py-1 border rounded-full 2xl:size-10 xl:size-11 lg:size-10 size-7 hover:bg-primary duration-500 ease-linear hover:border-primary flex justify-center items-center">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.0008 8.79916C10.2335 8.79916 8.80116 10.2322 8.80116 11.9994C8.80116 13.7667 10.2335 15.1997 12.0008 15.1997C13.7681 15.1997 15.2012 13.7667 15.2012 11.9994C15.2012 10.2322 13.7681 8.79916 12.0008 8.79916ZM12.0008 16.9289C9.27811 16.9289 7.07109 14.722 7.07109 11.9994C7.07109 9.27685 9.27811 7.06993 12.0008 7.06993C14.7234 7.06993 16.9305 9.27685 16.9305 11.9994C16.9305 14.722 14.7234 16.9289 12.0008 16.9289ZM16.1675 7.51457C16.041 7.32507 15.9735 7.10232 15.9736 6.87447C15.9738 6.56907 16.0953 6.27625 16.3113 6.06034C16.5273 5.84443 16.8202 5.72308 17.1256 5.72293H17.1261C17.3539 5.72302 17.5766 5.79068 17.766 5.91734C17.9554 6.044 18.103 6.22397 18.1901 6.43451C18.2773 6.64504 18.3 6.87668 18.2554 7.10013C18.2109 7.32358 18.1011 7.5288 17.9399 7.68985C17.7787 7.85089 17.5734 7.96053 17.3499 8.00489C17.1264 8.04925 16.8948 8.02634 16.6843 7.93907C16.4738 7.85179 16.294 7.70406 16.1675 7.51457ZM6.33939 19.4833C6.67748 19.6151 7.18622 19.771 8.12222 19.8136C9.13387 19.8601 9.43701 19.8694 12.0008 19.8694C14.5645 19.8694 14.8685 19.8601 15.8805 19.8136C16.8165 19.771 17.3254 19.6151 17.6633 19.4833C18.1115 19.3089 18.4318 19.1007 18.7676 18.7653C19.1034 18.4298 19.3112 18.11 19.4857 17.6618C19.6166 17.3237 19.7733 16.815 19.8159 15.879C19.8625 14.8663 19.8718 14.5632 19.8718 11.9995C19.8718 9.43583 19.8625 9.1327 19.8159 8.11994C19.7734 7.18398 19.6175 6.6751 19.4857 6.33718C19.3112 5.88898 19.1038 5.56872 18.7676 5.23295C18.4313 4.89718 18.1115 4.68859 17.6633 4.51487C17.3244 4.38431 16.8165 4.22725 15.8805 4.18463C14.8677 4.13886 14.5634 4.1288 12.0008 4.1288C9.43816 4.1288 9.13418 4.13809 8.12222 4.18463C7.18622 4.22718 6.67732 4.38308 6.33939 4.51487C5.8904 4.68859 5.5709 4.89672 5.23512 5.23295C4.89933 5.56918 4.6915 5.88898 4.51701 6.33718C4.38644 6.6761 4.22938 7.18398 4.18675 8.11994C4.14098 9.1327 4.13092 9.43583 4.13092 11.9995C4.13092 14.5632 4.14021 14.8671 4.18675 15.879C4.2293 16.815 4.38521 17.3239 4.51701 17.6618C4.69074 18.11 4.89887 18.4295 5.23512 18.7653C5.57136 19.101 5.89117 19.3089 6.33939 19.4833ZM5.71245 2.90345C6.32234 2.66614 7.02071 2.50409 8.04273 2.45755C9.0669 2.41024 9.39439 2.39941 12.0015 2.39941C14.6087 2.39941 14.936 2.41101 15.9596 2.45755C16.9808 2.50332 17.6788 2.66614 18.2899 2.90345C18.9203 3.14852 19.4563 3.47646 19.9898 4.01075C20.5232 4.54505 20.8513 5.08012 21.0971 5.71134C21.3344 6.32121 21.4965 7.01947 21.543 8.04153C21.5896 9.06512 21.6004 9.39236 21.6004 11.9994C21.6004 14.6065 21.5896 14.9329 21.543 15.9573C21.4972 16.9793 21.3344 17.6772 21.0971 18.2875C20.8513 18.9187 20.5241 19.4546 19.9898 19.9881C19.4554 20.5215 18.9203 20.8496 18.2891 21.0954C17.6788 21.3327 16.9809 21.4947 15.9588 21.5413C14.9352 21.5886 14.6079 21.5994 12.0008 21.5994C9.39362 21.5994 9.0669 21.5878 8.04273 21.5413C7.02071 21.4947 6.32349 21.3327 5.71245 21.0954C5.08082 20.8496 4.54604 20.5213 4.0118 19.9881C3.47755 19.4548 3.14953 18.9187 2.90445 18.2875C2.66713 17.6772 2.50507 16.9794 2.45853 15.9573C2.41122 14.9337 2.40039 14.6065 2.40039 11.9994C2.40039 9.39236 2.41122 9.06512 2.45853 8.04153C2.50507 7.01955 2.66713 6.32159 2.90445 5.71134C3.14953 5.07973 3.47748 4.54421 4.0118 4.01075C4.54611 3.4773 5.08082 3.14852 5.71245 2.90345Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </a>
+                            <a class="rounded-full" href="https://www.facebook.com/" target="_blank">
+                                <div
+                                    class="lg:px-2 px-1 lg:py-2 py-1 border rounded-full 2xl:size-10 xl:size-11 lg:size-10 size-7 hover:bg-primary duration-500 ease-linear hover:border-primary flex justify-center items-center">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M24 12.0469C24 5.41947 18.6274 0.046875 12 0.046875C5.37259 0.046875 0 5.41947 0 12.0469C0 17.8674 4.14405 22.7201 9.64267 23.8154V14.8626H7.68555V11.6H9.64267V9.64155C9.64267 6.97993 10.7476 5.39746 13.8871 5.39746H16.5009V8.66028H14.8671C13.6449 8.66028 13.5641 9.11598 13.5641 9.96686L13.5597 11.5998H16.5192L16.1728 14.862H13.5597V23.9464C19.4502 23.1819 24 18.1457 24 12.0469Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-[1px] w-full bg-light-gray"></div>
+                <div class="2xl:my-[30px] xl:my-6 lg:my-5 md:my-4 my-3 flex justify-between">
+                    <p class="xl:text-base lg:text-sm text-xs text-blue font-poppins">Copyright © 2024 Clever
+                        Travel - All Rights Reserved.</p>
+                    <p class="xl:text-base lg:text-sm text-xs text-blue font-poppins">Powered by GoDaddy</p>
+                </div>
+            </div>
+        </footer>
+        <script src="./assets/js/app.js" defer></script>
+    </main>
+</body>
+
+</html>
