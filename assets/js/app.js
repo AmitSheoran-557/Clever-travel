@@ -77,3 +77,44 @@ function removeFile(index) {
     selectedFilesArray.splice(index, 1);
     displaySelectedFiles();
 }
+// =================================== book btn js ==========================================
+
+const bookNowBtn = document.getElementById("bookNowBtn");
+const authModal = document.getElementById("authModal");
+const closeModalBtn = document.getElementById("closeModalBtn");
+const loginTab = document.getElementById("loginTab");
+const signupTab = document.getElementById("signupTab");
+const loginForm = document.getElementById("loginForm");
+const signupForm = document.getElementById("signupForm");
+
+bookNowBtn.onclick = () => {
+    authModal.classList.remove("hidden");
+    showLoginForm();
+};
+
+closeModalBtn.onclick = () => {
+    authModal.classList.add("hidden");
+};
+
+function showLoginForm() {
+    loginForm.classList.remove("hidden");
+    signupForm.classList.add("hidden");
+    loginTab.classList.add("border-blue-600", "text-blue-600");
+    signupTab.classList.remove("border-blue-600", "text-blue-600");
+}
+
+function showSignupForm() {
+    signupForm.classList.remove("hidden");
+    loginForm.classList.add("hidden");
+    signupTab.classList.add("border-blue-600", "text-blue-600");
+    loginTab.classList.remove("border-blue-600", "text-blue-600");
+}
+
+loginTab.onclick = showLoginForm;
+signupTab.onclick = showSignupForm;
+
+window.onclick = (event) => {
+    if (event.target === authModal) {
+        authModal.classList.add("hidden");
+    }
+};
