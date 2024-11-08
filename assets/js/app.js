@@ -9,7 +9,7 @@ const body = document.body;
 menuicon.addEventListener("click", toggleMenu);
 
 function toggleMenu() {
-    if (window.innerWidth < 992) {
+    if (window.innerWidth < 1024) {
         menuList.classList.toggle("-right-full");
         menuList.classList.toggle("right-0");
         menubarFirst.classList.toggle("rotate-[40deg]");
@@ -27,18 +27,7 @@ menuItems.forEach(item => {
     });
 });
 
-window.addEventListener("resize", () => {
-    if (window.innerWidth >= 992) {
-        menuList.classList.add("-right-full");
-        menuList.classList.remove("right-0");
-        menubarFirst.classList.remove("rotate-[40deg]");
-        menubarSecond.classList.remove("hidden");
-        menubarThird.classList.remove("-rotate-[40deg]");
-        body.classList.remove("overflow-hidden");
-    }
-});
-
-// ========================= attach Files js===================
+// ========================= attach Files js ===================
 let selectedFilesArray = [];
 
 function handleFiles(event) {
