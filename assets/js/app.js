@@ -1,4 +1,4 @@
-// ==================================== Nav bar js===============================================
+// ==================================== Nav bar js ===============================================
 const menuicon = document.querySelector(".menubar");
 const menuList = document.querySelector(".menulist");
 const menubarFirst = document.querySelector(".menubarFirst");
@@ -37,18 +37,16 @@ function handleFiles(event) {
 
 function displaySelectedFiles() {
     const selectedFilesDiv = document.getElementById('selectedFiles');
-    selectedFilesDiv.innerHTML = ''; // Clear previous list
+    selectedFilesDiv.innerHTML = ''; 
 
     selectedFilesArray.forEach((file, index) => {
         const fileDiv = document.createElement('div');
         fileDiv.className = 'flex items-center justify-between bg-gray-200 px-3 py-2 rounded-md';
 
-        // File name
         const fileName = document.createElement('span');
         fileName.className = 'text-gray-700';
         fileName.innerText = `${file.name}`;
 
-        // Remove button
         const removeButton = document.createElement('button');
         removeButton.className = 'text-red-500 hover:text-red-700 ml-4';
         removeButton.innerText = 'X';
@@ -78,6 +76,7 @@ const signupForm = document.getElementById("signupForm");
 
 bookNowBtn.onclick = () => {
     authModal.classList.remove("hidden");
+    authModal.classList.add("flex");
     showLoginForm();
 };
 
