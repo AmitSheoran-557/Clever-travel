@@ -23,7 +23,6 @@
     <meta property="twitter:description"
         content="Discover the peace and beauty of breathtaking destinations, meticulously selected by our travel professionals to offer you a relaxing and luxurious escape." />
     <meta property="twitter:image" content="/meta-tag-img.png" />
-
     <script>
         tailwind.config = {
             theme: {
@@ -72,10 +71,10 @@
 </head>
 
 <body>
-    <main class="overflow-hidden">
+    <main class="overflow-hidden relative max-w-[1920px] mx-auto">
         <!-- Scroll to Top Button -->
         <button id="scrollToTopBtn"
-            class="hidden fixed xl:bottom-5 lg:bottom-3 bottom-2 xl:right-5 lg:right-3 right-2 xl:px-[19px] xl:py-2.5 lg:px-[13px] lg:py-1 px-[11px] py-[2px] text-xl bg-blue text-white rounded-md shadow-md hover:bg-gray-600 transition-opacity z-[9999] animate-bounce">
+            class="hidden icon fixed xl:bottom-5 lg:bottom-3  bottom-2 xl:right-5 lg:right-3 right-2 xl:px-[19px] xl:py-2.5 lg:px-[13px] lg:py-1 px-[11px] py-[2px] text-xl bg-blue text-white rounded-md shadow-md hover:bg-gray-600 transition-opacity z-[9999] animate-bounce">
             ↑
         </button>
 
@@ -94,16 +93,16 @@
                             <a class="hover:text-primary duration-300 ease-linear" href="#contact">Contact</a>
                             <a class="hover:text-primary duration-300 ease-linear" href="#quote">Get a Quote</a>
                             <div class="max-lg:block hidden">
-                                <button
-                                    class="flex justify-center items-center bg-primary hover:text-blue  duration-300 ease-linear gap-3 font-medium xl:text-2xl lg:text-xl md:text-lg text-base text-white px-5 py-3 hover:svg-fill">
-                                    <svg class="max-w-[25px] icon" width="30" height="31" viewBox="0 0 30 31"
+                                <a class="flex justify-center items-center bg-primary hover:text-blue  duration-300 ease-linear gap-3 font-medium xl:text-2xl lg:text-xl md:text-lg text-base text-white px-5 py-3 hover:svg-fill"
+                                    href="tel:+347-385-6647">
+                                    <svg class=" max-w-[25px] icon" width="30" height="31" viewBox="0 0 30 31"
                                         fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
                                             d="M17.9448 3.00991C17.666 2.96994 17.3859 3.05238 17.163 3.22976C16.934 3.40964 16.7908 3.66946 16.7597 3.96051C16.6937 4.54886 17.1182 5.08099 17.7058 5.14719C21.7579 5.59938 24.9074 8.75597 25.363 12.8207C25.424 13.3653 25.8809 13.7763 26.4262 13.7763C26.4672 13.7763 26.5071 13.7738 26.5482 13.7688C26.8332 13.7375 27.0872 13.5964 27.2664 13.3715C27.4445 13.1467 27.5254 12.8669 27.493 12.5808C26.9254 7.50932 23.0003 3.57328 17.9448 3.00991ZM18.0226 7.36242C17.4276 7.2525 16.8811 7.63224 16.7678 8.21309C16.6545 8.79394 17.0354 9.36105 17.6143 9.47472C19.3571 9.81449 20.7028 11.1636 21.0439 12.9124V12.9136C21.141 13.417 21.5842 13.783 22.0946 13.783C22.1631 13.783 22.2315 13.7768 22.3013 13.7643C22.8801 13.6481 23.2611 13.0822 23.1478 12.5001C22.6386 9.88819 20.6281 7.87082 18.0226 7.36242ZM20.0001 19.3632C20.5644 19.0378 21.2018 18.6703 22.0058 18.8413C22.7341 18.9949 25.2164 21.0098 25.8961 21.7081C26.3418 22.1653 26.5895 22.6374 26.6281 23.1096C26.6953 24.9621 24.1782 27.0769 23.72 27.3405C23.1113 27.7789 22.403 28 21.6075 28C20.7946 28 19.8883 27.7689 18.8999 27.308C13.5369 25.0695 5.34441 17.0388 3.17833 11.7174C2.27952 9.73629 2.2733 8.10241 3.16339 6.87451C3.51818 6.29865 5.5411 3.89156 7.3524 3.96775C7.83417 4.00898 8.30224 4.25631 8.7616 4.706C9.45624 5.38678 11.4207 7.87632 11.5725 8.60707C11.7406 9.41901 11.3721 10.0648 11.0447 10.6319C10.9749 10.7538 10.8808 10.8985 10.7777 11.057C10.3865 11.6585 9.8658 12.4592 10.05 12.9703C11.3709 16.2131 14.4221 19.0424 17.6662 20.3715C18.1679 20.5538 18.9681 20.0294 19.5677 19.6365C19.7239 19.5341 19.8665 19.4406 19.9867 19.3709L20.0001 19.3632Z"
                                             fill="white" />
                                     </svg>
-                                    <a href="tel:+347-385-6647">347-385-6647</a>
-                                </button>
+                                    <p>347-385-6647</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -117,14 +116,14 @@
                                     fill="white" />
                             </svg> <a href="tel:+347-385-6647">347-385-6647</a></button>
                     </div>
-                    <div
+                    <div id="menu-bar"
                         class="flex flex-col lg:hidden menubar justify-between cursor-pointer z-[200] scroll-m-0 lg:w-8 w-[25.5px] h-5">
                         <span
-                            class="w-full h-1 flex rounded-md transition-all duration-500 bg-light-black menubarFirst origin-left"></span>
+                            class="w-full h-1 flex rounded-md transition-all duration-500 bg-light-black menubarFirst origin-left max-w-[23px]"></span>
                         <span
-                            class="w-full h-1 flex rounded-md transition-all duration-500 bg-light-black menubarSecond origin-left"></span>
+                            class="w-full h-1 flex rounded-md transition-all duration-500 bg-light-black menubarSecond origin-left max-w-[23px]"></span>
                         <span
-                            class="w-full h-1 flex rounded-md transition-all duration-500 bg-light-black menubarThird origin-left"></span>
+                            class="w-full h-1 flex rounded-md transition-all duration-500 bg-light-black menubarThird origin-left max-w-[23px]"></span>
                     </div>
                 </nav>
             </div>
@@ -148,8 +147,7 @@
                         class="2xl:px-12 xl:px-10 lg:px-8 px-4 2xl:py-[21px] xl:py-4 lg:py-3 py-2 bg-primary hover:bg-blue duration-300 ease-linear text-white font-semibold xl:text-2xl leading-normal lg:text-xl md:text-lg text-sm">
                         Book Now
                     </button>
-                    <div id="authModal"
-                        class="fixed inset-0 items-center justify-center bg-black bg-opacity-70 hidden">
+                    <div id="authModal" class="fixed inset-0 items-center justify-center bg-black bg-opacity-70 hidden">
                         <div class="bg-white rounded-lg shadow-lg w-96 p-6 relative">
                             <!-- Close Button -->
                             <span id="closeModalBtn"
@@ -306,7 +304,7 @@
                     </span>We Offer
                 </h1>
                 <p
-                    class="text-center font-poppins lg:leading-primary xl:max-w-[954px] lg:max-w-2xl md:max-w-lg max-w-xs mx-auto 2xl:mb-[94px] xl:mb-16 lg:mb-12 mb-10 text-blue xl:text-lg lg:text-base md:text-sm text-xs">
+                    class="text-center font-poppins lg:leading-primary xl:max-w-[954px] lg:max-w-2xl mx-auto 2xl:mb-[94px] xl:mb-16 lg:mb-12 mb-10 text-blue xl:text-lg lg:text-base md:text-sm text-xs">
                     We offer a comprehensive range of travel solutions designed to make your journey effortless and
                     enjoyable. From personalized trip planning and exclusive deals to expert advice and 24/7 support, we
                     handle every detail to ensure a seamless and memorable travel experience. Whether you need
@@ -691,7 +689,7 @@
             </div>
         </section>
 
-        <!-- ================================= Footer section ============= ============================= -->
+        <!-- ================================= Footer section ========================================== -->
         <footer>
             <div class="container max-w-[1760px] px-3" id="contact">
                 <div class="flex max-xl:flex-col w-full px-3 relative">
@@ -716,7 +714,7 @@
                                     First
                                     Name</p>
                                 <input type="text" required placeholder="Enter First Name..."
-                                    class="placeholder:text-light-gray text-light-gray border broder-light-gray xl:px-[15px] outline-none lg:px-3 px-2 xl:pt-[10px] xl:pb-[9px] lg:py-2 py-[7px] max-w-[449px] w-full">
+                                    class="placeholder:text-light-gray text-light-gray border broder-light-gray xl:px-[15px] outline-none lg:px-3 px-2 xl:pt-[10px] xl:pb-[9px] lg:py-2 py-[7px] w-full">
                             </div>
                             <div class="w-full">
                                 <p
@@ -724,7 +722,7 @@
                                     Email
                                 </p>
                                 <input type="email" required placeholder="Enter Email..."
-                                    class="placeholder:text-light-gray text-light-gray border broder-light-gray xl:px-[15px] outline-none lg:px-3 px-2 xl:pt-[10px] xl:pb-[9px] lg:py-2 py-[7px] max-w-[449px] w-full">
+                                    class="placeholder:text-light-gray text-light-gray border broder-light-gray xl:px-[15px] outline-none lg:px-3 px-2 xl:pt-[10px] xl:pb-[9px] lg:py-2 py-[7px] w-full">
                             </div>
                         </div>
                         <div class="2xl:mb-[22px] xl:mb-5 mb-4">
@@ -732,7 +730,7 @@
                                 Message
                             </p>
                             <textarea name="" text="" placeholder="Lorem ipsum dolor sit amet consectetur... "
-                                class="placeholder:text-light-gray text-light-gray w-full h-[88px] border placeholder:leading-none max-md:max-w-[449px] outline-none broder-light-gray xl:px-[15px] lg:px-3 px-2 xl:py-[14px] lg:py-3 py-[7px] resize-none"></textarea>
+                                class="placeholder:text-light-gray text-light-gray w-full h-[88px] border placeholder:leading-none  outline-none broder-light-gray xl:px-[15px] lg:px-3 px-2 xl:py-[14px] lg:py-3 py-[7px] resize-none"></textarea>
                         </div>
                         <div class="flex flex-col sm:flex-row justify-between items-center space-y-4 md:space-y-0">
                             <div class="flex lg:gap-3 gap-2 items-center cursor-pointer"
@@ -766,16 +764,17 @@
                             <p
                                 class="xl:text-3xl lg:text-2xl md:text-xl text-sm font-medium text-white xl:mb-4 mb-2 underline 2xl:decoration-[1.7px] decoration-1 lg:underline-offset-4 underline-offset-2">
                                 Location:</p>
-                            <p
-                                class="hover:text-primary duration-300 ease-linear font-poppins xl:text-lg lg:text-base text-white text-sm">
-                                123 Main Street, Anytown, CA 12345, USA</p>
+                            <a  href="https://www.google.com/maps?q=123+Main+Street,+Anytown,+CA+12345,+USA"
+                                target="_blank" class="hover:text-primary duration-300 ease-linear font-poppins xl:text-lg lg:text-base text-white text-sm">
+                                123 Main Street, Anytown, CA 12345, USA
+                            </a>
                         </div>
                         <div class="xl:mb-8 lg:mb-5 mb-3">
                             <p
                                 class="xl:text-3xl lg:text-2xl md:text-xl text-sm font-medium text-white xl:mb-4 lg:mb-3 mb-2 underline 2xl:decoration-[1.7px] decoration-1 lg:underline-offset-4 underline-offset-2">
                                 Email:</p>
                             <a class="hover:text-primary duration-300 ease-linear font-poppins xl:text-lg lg:text-base text-white text-sm"
-                                href="#location">clever.travel@example.com</a>
+                                href="mailto:clever.travel@example.com">clever.travel@example.com</a>
                         </div>
                         <div class="xl:mb-9 lg:mb-5 mb-3">
                             <p

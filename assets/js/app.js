@@ -12,9 +12,9 @@ function toggleMenu() {
     if (window.innerWidth < 1024) {
         menuList.classList.toggle("-right-full");
         menuList.classList.toggle("right-0");
-        menubarFirst.classList.toggle("rotate-[40deg]");
+        menubarFirst.classList.toggle("rotate-[44deg]");
         menubarSecond.classList.toggle("hidden");
-        menubarThird.classList.toggle("-rotate-[40deg]");
+        menubarThird.classList.toggle("-rotate-[44deg]");
         body.classList.toggle("overflow-hidden");
     }
 }
